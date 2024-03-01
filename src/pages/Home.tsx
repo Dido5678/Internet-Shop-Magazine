@@ -7,6 +7,7 @@ import SectionThree from '../components/SectionThree';
 import SectionBasket from '../components/SectionBasket';
 import SectionFour from '../components/SectionFour';
 // import SectionReviewsSlider from "../components/SectionReviewsSlider";
+import Footer from "../pages/Layoutfooter/Footer";
 
 
 interface HomeProps {
@@ -27,6 +28,7 @@ const Home: React.FC<HomeProps> = () => {
        <SectionBasket />
        <SectionFour />
        {/* <SectionReviewsSlider /> */}
+       <Footer />
     </>
   );
 };
