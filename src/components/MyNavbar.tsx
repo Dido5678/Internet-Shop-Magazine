@@ -56,7 +56,7 @@ const MyNavbar: React.FC< MyNavbarProps> = () => {
             <Nav.Link as={Link} to="/contact">CONTACT</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link as={Link} to="/home" className={styles.telContainer}>
+            <Nav.Link as={Link} to="/home" className={styles.tel_container}>
               <img className={styles.service} src="./icons/customer-service.png" alt="customer-service"/>
               <div className={styles.tel}> +34 657 3556 778</div>
             </Nav.Link>

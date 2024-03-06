@@ -1,4 +1,7 @@
 /* sectionOne */
+.section_one{
+  width: 100%;
+}
 .list{
     display: flex;
     justify-content: center;
@@ -36,16 +39,17 @@ h3{
     background: rgb(48, 47, 47);
     font-size: 20px;
 }
+ // sectionTwo
 
-// // sectionTwo
-// home.module.scss
-
+.section_two{
+  max-width: 100%;
+}
 .carouselItem {
     position: relative;
-    height: 750px; /* Ensures the carousel items cover the entire viewport height */
+    height: 750px; 
 }
 
-/* Grey overlay styles */
+
 .overlay {
     content: '';
     position: absolute;
@@ -57,22 +61,20 @@ h3{
     padding: 200px 0px 0px 170px;
 }
 
-/* Image styles */
 .image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* Apply animation to the text element */
 .text {
     font-size: 18px;
     color: white;
     font-weight: 600;
-    animation: slideInFromTop 1s forwards; /* Apply the animation */
+    animation: slideInFromTop 1s forwards; 
 }
 
-/* Animation for text */
+
 @keyframes slideInFromTop {
     0% {
         transform: translateY(0);
@@ -91,7 +93,7 @@ h3{
     color: white;
     animation: slideRightLeft 2s infinite;
 }
-/* Animation for title */
+
 @keyframes slideRightLeft {
     0% {
       transform: translateX(0);
@@ -129,6 +131,9 @@ h3{
   }
 
 // secthionThree
+.section_three{
+  max-width: 100%;
+}
 .list_box{
   width: 100%;
   height: 600px;
@@ -180,11 +185,13 @@ h3{
   background-color: #FF084E;
 }
 // sectionBasket
-
-.basket_container{
+.section_basket{
   max-width: 1140px;
   margin: 0 auto;
   padding-bottom: 80px;
+}
+.basket_container{
+  max-width: 100%;
 }
 .new_arrivals{
   text-align: center;
@@ -409,8 +416,11 @@ h3{
 }
 
 // sectionfour styles
+.section_four{
+  max-width: 100%;
+  margin: 0 auto;
+}
 .four_container{
-  width: 100%;
   background-image: url(../../public//images//bg-5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,8 +449,8 @@ h3{
   padding: 3px 10px;
   top: 70px;
   left: 80px;
-  opacity: 0; /* Initially hide the HOT text */
-  transition: opacity 0.3s ease; /* Add transition for smooth effect */
+  opacity: 0;
+  transition: opacity 0.3s ease; 
 }
 
 .hot_offer:after {
@@ -498,13 +508,47 @@ h3{
   padding: 15px 30px;
 }
 
-//SECTION REVIEWS 
+//sectionfive 
 
-.reviews_container{
-  width: 100%;
+.section_five{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background: #F6F6F6;
+  padding-bottom: 50px;
 }
-.reviews_title{
+.five_title{
+  padding: 70px 0px 40px 0px;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
+}
+.corusel_text{
+  padding: 70px 0px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+.corusel_box{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.avatar_text{
+  padding-top: 10px;
+  margin: 0;
+}
+.city{
+  color:red;
+}
+.carousel-indicators{
+  padding: 10px;
+  color: red;
 }

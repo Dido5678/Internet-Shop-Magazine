@@ -9,7 +9,7 @@ interface SectionTwoProps {}
 const SectionTwo: React.FC<SectionTwoProps> = () => {
   
     return (
-        <div>
+        <div className={styles.section_two} id='section-two'>
             <Carousel>
                 <Carousel.Item className={styles.carouselItem}>
                     <img src="./images/bg.jpg" alt="bg" className={styles.image}/>

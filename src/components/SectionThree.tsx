@@ -7,6 +7,7 @@ interface SectionThreeProps {
 
 const SectionThree: React.FC<SectionThreeProps> = () => {
     return (
+        <div className={styles.section_three}>
         <div className={styles.list_box}>
             <div className={styles.box_1}>
                 <img src='./images/ochki.jpg' alt='bg' className={styles.images_2} />
@@ -24,6 +25,7 @@ const SectionThree: React.FC<SectionThreeProps> = () => {
                     <button className={styles.button_2}>SHOP NOW</button>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

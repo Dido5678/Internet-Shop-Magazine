@@ -6,7 +6,9 @@ interface  SectionOneProps {
 }
 
 const SectionOne: React.FC< SectionOneProps> = () => {
+
   return (
+    <div className={styles.section_one}>
     <div className={styles.list}>
         <div className={styles.item1}>
             <h3>Free Shipping & Returns</h3>
@@ -20,6 +22,7 @@ const SectionOne: React.FC< SectionOneProps> = () => {
             <h3>20% Discount for students</h3>
             <span className={styles.subText}>USE CODE: Colorlib</span>
         </div>
+    </div>
     </div>
   );
 };

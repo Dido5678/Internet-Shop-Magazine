@@ -10,8 +10,8 @@ interface BasketProps {
 
 const Basket: React.FC<BasketProps> = ({ selectedProduct, isWindowOpen, setIsWindowOpen }) => {
   const [count, setCount] = useState(1);
-  const [originalPrice] = useState(120.99);
-  const [discountedPrice] = useState(130);
+  const [originalPrice] = useState(39.99);
+  const [discountedPrice] = useState(70);
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setCount(parseInt(event.target.value, 10) || 0); 
@@ -45,7 +45,6 @@ const Basket: React.FC<BasketProps> = ({ selectedProduct, isWindowOpen, setIsWin
           <div className={styles.product_box}>
             <div className={styles.product_title}>Boutique Silk Dress</div>
             <div className={styles.product_stars}>
-              {/* Stars go here */}
             </div>
             <div className={styles.product_discount}>
               <p className={styles.original_price}>

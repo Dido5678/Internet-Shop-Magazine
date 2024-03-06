@@ -15,6 +15,7 @@ const   SectionFour: React.FC< SectionFourProps> = () => {
 
 
   return (
+    <div className={styles.section_four}>
     <div className={styles.four_container}>
       <div className={styles.four_box}>
       <div className={styles.cont}>
@@ -35,6 +36,7 @@ const   SectionFour: React.FC< SectionFourProps> = () => {
             </div>
             <button className={styles.four_shop}>SHOP NOW</button>
       </div>
+    </div>
     </div>
   )
 };

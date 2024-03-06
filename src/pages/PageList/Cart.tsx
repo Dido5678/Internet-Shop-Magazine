@@ -1,15 +1,16 @@
 import React from 'react';
+import BasketList from '../../products/BasketList';
 
 
 
 const Cart: React.FC = () => {
-  
+ 
    
 
   
   return (
     <div>
-      cart
+     <BasketList />
     </div>
   );
 };

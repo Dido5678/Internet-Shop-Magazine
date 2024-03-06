@@ -11,9 +11,8 @@ const SectionBasket: React.FC<SectionBasketProps> = () => {
   const [showItems, setShowItems] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
   const [isWindowOpen, setIsWindowOpen] = useState(false);
+
   
-
-
 
   const handleCategoryChange = (selectedCategory: string) => {
     setCategory(selectedCategory);
@@ -52,6 +51,7 @@ const SectionBasket: React.FC<SectionBasketProps> = () => {
   }, []);
 
   return (
+    <div className={styles.section_basket}>
     <div className={styles.basket_container}>
       <h2 className={styles.new_arrivals}>NEW ARRIVALS</h2>
       <div className={styles.content}>
@@ -77,6 +77,7 @@ const SectionBasket: React.FC<SectionBasketProps> = () => {
       </div>
       <Basket selectedProduct={selectedProduct} isWindowOpen={isWindowOpen} setIsWindowOpen={setIsWindowOpen} />
           
+    </div>
     </div>
   );
 };
