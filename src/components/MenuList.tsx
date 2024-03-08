@@ -65,10 +65,11 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
 
 
     return (
-        <Menu isOpen={isMenuClose} width={'320px'} pageWrapId={"page-wrap"} className={styles.menu_container}>
+        <Menu isOpen={isMenuClose} width={'400px'} pageWrapId={"page-wrap"} className={styles.menu_container}>
             <img src="./icons/close-white.png" alt="close" className={styles.close} onClick={toggleMenu}/>
             <h2 className={styles.categories}>Categories</h2>
-            <div className={styles.box}>
+            <div className={styles.menu_block}>
+                <div className={styles.box}>
                 <ul>
                     <li>
                         <label onClick={handleCheckboxWomanClick} className={styles.label}>
@@ -114,9 +115,9 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
                        </li>
                    </ul>
                 )}
-            </div>
+                </div>
 
-            <div className={styles.box}>
+                <div className={styles.box}>
                 <ul>
                     <li>
                         <label onClick={handleCheckboxManClick} className={styles.label}>
@@ -150,9 +151,9 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
                         </li>
                     </ul>
                 )}
-            </div>
+                </div>
 
-            <div className={styles.box}>
+                <div className={styles.box}>
                 <ul>
                     <li>
                         <label onClick={handleCheckboxChildrenClick} className={styles.label}>
@@ -180,9 +181,9 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
                         </li>
                     </ul>
                 )}
-            </div>
+                </div>
 
-            <div className={styles.box}>
+                <div className={styles.box}>
                 <ul>
                     <li>
                         <label onClick={handleCheckboxBagsClick} className={styles.label}>
@@ -210,9 +211,9 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
                         </li>
                     </ul>
                 )}
-            </div>
+                </div>
 
-            <div className={styles.box}>
+                <div className={styles.box}>
                 <ul>
                     <li>
                         <label onClick={handleCheckboxEyewearClick} className={styles.label}>
@@ -246,9 +247,9 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
                         </li>
                     </ul>
                 )}
-            </div>
+                </div>
 
-            <div className={styles.box}>
+                <div className={styles.box}>
                 <ul>
                     <li>
                         <label onClick={handleCheckboxFootwearClick} className={styles.label}>
@@ -282,6 +283,7 @@ const MenuList: React.FC<MenuListProps> = ({ isMenuClose, toggleMenu  }) => {
                         </li>
                     </ul>
                 )}
+                </div>
             </div>
         </Menu>
     );

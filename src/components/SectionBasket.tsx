@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from "../pages/home.module.scss";
 import productsData from "../data/products.json";
-import Basket from "../pages/Basket";
+import InfoProduct from "../pages/InfoProduct";
 
 interface SectionBasketProps {}
+
 
 const SectionBasket: React.FC<SectionBasketProps> = () => {
   const [category, setCategory] = useState('all');
@@ -11,6 +12,7 @@ const SectionBasket: React.FC<SectionBasketProps> = () => {
   const [showItems, setShowItems] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
   const [isWindowOpen, setIsWindowOpen] = useState(false);
+  const [cartItems, setCartItems] = useState<any[]>([]);
 
   
 
@@ -28,9 +30,12 @@ const SectionBasket: React.FC<SectionBasketProps> = () => {
 
   const handleAddToBasket = (product: any) => {
     const currentBasketItems = JSON.parse(localStorage.getItem('basketItems') || '[]');
-    localStorage.setItem('basketItems', JSON.stringify([...currentBasketItems, product]));
-    console.log(product);
+    const newBasketItems = [...currentBasketItems, product];
+    localStorage.setItem('basketItems', JSON.stringify(newBasketItems));
+     setCartItems(newBasketItems);
+    
   };
+  
 
 
   useEffect(() => {
@@ -75,8 +80,7 @@ const SectionBasket: React.FC<SectionBasketProps> = () => {
             </div>
         ))}
       </div>
-      <Basket selectedProduct={selectedProduct} isWindowOpen={isWindowOpen} setIsWindowOpen={setIsWindowOpen} />
-          
+      <InfoProduct selectedProduct={selectedProduct} isWindowOpen={isWindowOpen} setIsWindowOpen={setIsWindowOpen} />
     </div>
     </div>
   );

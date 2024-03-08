@@ -1,35 +1,26 @@
-// BasketList.tsx
+// // BasketList.tsx
 
-import React, { useEffect, useState } from 'react';
-import styles from "../pages/basket.module.scss";
+// import React, { useEffect, useState } from 'react';
+// import styles from "../pages/basket.module.scss";
 
-interface BasketListProps {
+// interface BasketListProps {
  
-}
+// }
 
 
 
-const BasketList: React.FC<BasketListProps> = () => {
+// const BasketList: React.FC<BasketListProps> = () => {
   
 
-  return (
-    <div>
-      <h2 className={styles.basket_title}>Basket</h2>
-      {/* <ul className={styles.basket_container}>
-        {localBasketItems.map((item: Product, index: number) => (
-          <li key={index} className={styles.basket_items}>
-            <img src={item.image} alt={item.name} className={styles.basket_img} />
-            <div className={styles.basket_price}>{item.price}</div>
-            <div className={styles.basket_text}>{item.text}</div>
-            <button className={styles.buy} onClick={() => handleBuy(basketItems)}>BUY</button>
-          </li>
-        ))}
-      </ul> */}
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <h2 className={styles.basket_title}>Basket</h2>
+     
+//     </div>
+//   );
+// };
 
-export default BasketList;
+// export default BasketList;
 
 
 

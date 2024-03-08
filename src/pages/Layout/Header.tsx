@@ -11,7 +11,10 @@ const Header: React.FC<HeaderProps> = () => {
   const [isBurgerOpen, setBurgerOpen] = useState(false); 
   const [isCartOpen, setCartOpen] = useState(false);
   const [cartItems, setCartItems] = useState<any[]>([]);
+  
 
+
+  
   // Toggle menu visibility when the burger icon is clicked
   const toggleBurger = () => {
     setBurgerOpen(!isBurgerOpen);
@@ -26,6 +29,13 @@ const Header: React.FC<HeaderProps> = () => {
     setCartOpen(false);
   };
 
+  // Fetch cart items from localStorage on component mount
+  useEffect(() => {
+    const storedItems = JSON.parse(localStorage.getItem('basketItems') || '[]');
+    setCartItems(storedItems);
+  }, []);
+
+  // Calculate total price of items in the cart
   const calculateTotalPrice = () => {
     let totalPrice = 0;
     cartItems.forEach(item => {
@@ -35,12 +45,7 @@ const Header: React.FC<HeaderProps> = () => {
     return totalPrice.toFixed(2);
   };
 
-  useEffect(() => {
-    const storedItems = JSON.parse(localStorage.getItem('basketItems') || '[]');
-    console.log("Stored items from localStorage:", storedItems);
-    setCartItems(storedItems);
-  }, []); 
-
+  // Handle deleting items from the cart
   const handleDeleteItem = (index: number) => {
     const newCartItems = [...cartItems];
     newCartItems.splice(index, 1);
@@ -56,6 +61,7 @@ const Header: React.FC<HeaderProps> = () => {
       <div className={styles.burger_container}>
         {isBurgerOpen && <MenuList isMenuClose={isBurgerOpen} toggleMenu={toggleBurger} />}
         <h1 className={styles.title}>K A R L <br /><span className={styles.fashion}>FASHION</span></h1>
+        {/* my open basket */}
         <div className={styles.icons_box}>
           <img 
             className={styles.bag} 

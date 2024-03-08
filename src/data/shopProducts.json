@@ -1,0 +1,213 @@
+[
+    {
+        "id":"1",
+        "category": "woman",
+        "name": "Product A",
+        "image":"../products/product-1.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"2",
+        "category": "woman",
+        "name": "Product B",
+        "image":"../products/product-2.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"3",
+        "category": "woman",
+        "name": "Product C",
+        "image":"../products/product-3.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"4",
+        "category": "woman",
+        "name": "Product D",
+        "image":"../products/product-4.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"5",
+        "category": "woman",
+        "name": "Product E",
+        "image":"../products/product-5.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"6",
+        "category": "man",
+        "name": "Product F",
+        "image":"../products/product-6.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"7",
+        "category": "accessories",
+        "name": "Product G",
+        "image":"../products/product-7.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"8",
+        "category": "kids",
+        "name": "Product H",
+        "image":"../products/product-8.jpg",
+        "price":"$39.90",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"9",
+        "category": "shoes",
+        "name": "Product I",
+        "image":"../products/product-9.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"10",
+        "category": "woman",
+        "name": "Product A",
+        "image":"../products/product-1.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"11",
+        "category": "woman",
+        "name": "Product B",
+        "image":"../products/product-2.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"12",
+        "category": "woman",
+        "name": "Product C",
+        "image":"../products/product-3.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"13",
+        "category": "woman",
+        "name": "Product D",
+        "image":"../products/product-4.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"14",
+        "category": "woman",
+        "name": "Product E",
+        "image":"../products/product-5.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"15",
+        "category": "man",
+        "name": "Product F",
+        "image":"../products/product-6.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"16",
+        "category": "accessories",
+        "name": "Product G",
+        "image":"../products/product-7.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"17",
+        "category": "kids",
+        "name": "Product H",
+        "image":"../products/product-8.jpg",
+        "price":"$39.90",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"18",
+        "category": "shoes",
+        "name": "Product I",
+        "image":"../products/product-9.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"19",
+        "category": "kids",
+        "name": "Product H",
+        "image":"../products/product-8.jpg",
+        "price":"$39.90",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"20",
+        "category": "shoes",
+        "name": "Product I",
+        "image":"../products/product-9.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    },
+    {
+        "id":"21",
+        "category": "shoes",
+        "name": "Product I",
+        "image":"../products/product-9.jpg",
+        "price":"$39.90",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia expedita quibusdam aspernatur, sapiente consectetur accusantium perspiciatis praesentium eligendi, in fugiat?",
+        "text":"Jeans midi cocktail dress",
+        "basket":"ADD TO CART"
+    }
+      
+]

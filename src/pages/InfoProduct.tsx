@@ -2,16 +2,19 @@ import React, { useState, ChangeEvent } from 'react';
 import styles from "../pages/home.module.scss"; 
 import { Link } from "react-router-dom";
 
-interface BasketProps {
+interface InfoProductProps {
   selectedProduct: any;
   isWindowOpen: boolean;
   setIsWindowOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  addToCart?: (product: any) => void; // Make it optional
 }
 
-const Basket: React.FC<BasketProps> = ({ selectedProduct, isWindowOpen, setIsWindowOpen }) => {
+const InfoProduct: React.FC<InfoProductProps> = ({ selectedProduct, isWindowOpen, setIsWindowOpen }) => {
   const [count, setCount] = useState(1);
   const [originalPrice] = useState(39.99);
   const [discountedPrice] = useState(70);
+
+  
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setCount(parseInt(event.target.value, 10) || 0); 
@@ -87,7 +90,7 @@ const Basket: React.FC<BasketProps> = ({ selectedProduct, isWindowOpen, setIsWin
   );
 };
 
-export default Basket;
+export default InfoProduct;
 
 
 
