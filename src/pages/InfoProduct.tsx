@@ -84,7 +84,18 @@ const InfoProduct: React.FC<InfoProductProps> = ({ selectedProduct, isWindowOpen
             </div>
             <div className={styles.share}>Share With Friend</div>
             <div className={styles.product_socials}>
-              {/* Social icons go here */}
+                <Link to="https://www.pinterest.com/">
+                  <img className={styles.icons} src="./icons/pinterestblack.png" alt="pinterest"/>
+                </Link>
+                <Link to="https://www.facebook.com">
+                  <img className={styles.icons} src="./icons/facebook.png" alt="facebook"/>
+                </Link>
+                <Link to="https://www.twitter.com">
+                  <img className={styles.icons} src="./icons/twitter.png" alt="twitter"/>
+                </Link>
+                <Link to="https://www.linkedin.com">
+                  <img className={styles.icons} src="./icons/linkedin.png" alt="linkedin"/>
+                </Link>  
             </div>
           </div>
           <div onClick={handleCloseWindow}>

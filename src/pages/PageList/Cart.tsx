@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { emitter } from '../../emitter'; 
+
 
 interface CartProps {}
 
@@ -11,13 +11,6 @@ const Cart: React.FC<CartProps> = () => {
       setCartItems(prevItems => [...prevItems, product]);
     };
 
-    // Listen for the addToCart event
-    emitter.on('addToCart', handleAddToCart);
-
-    // Clean up the listener when component unmounts
-    return () => {
-      emitter.removeListener('addToCart', handleAddToCart);
-    };
   }, []);
 
   return (

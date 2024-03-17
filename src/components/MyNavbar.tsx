@@ -22,8 +22,6 @@ const MyNavbar: React.FC< MyNavbarProps> = () => {
           <Link to="https://www.pinterest.com/">
             <img className={styles.icons} src="./icons/pinterestblack.png" alt="pinterest"/>
           </Link>
-        </div>
-
           <span className={styles.hot_offer}>SHARE</span>
           <Link to="https://www.facebook.com">
             <img className={styles.icons} src="./icons/facebook.png" alt="facebook"/>
@@ -35,7 +33,8 @@ const MyNavbar: React.FC< MyNavbarProps> = () => {
           <span className={styles.hot_offer}>SHARE</span>
           <Link to="https://www.linkedin.com">
             <img className={styles.icons} src="./icons/linkedin.png" alt="linkedin"/>
-          </Link>  
+          </Link>   
+           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

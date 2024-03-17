@@ -56,7 +56,7 @@ const Home: React.FC<HomeProps> = () => {
       {showScrollButton && (
         <div className={styles.home_scroll}>
           <div onClick={scrollToTop}>
-            <img src='./icons/chevron-up.png' alt='up' className={styles.scroll_up} />
+            <img src='./icons/chevron.png' alt='up' className={styles.scroll_up} />
           </div>
         </div>
       )}
