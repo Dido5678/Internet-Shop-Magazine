@@ -21,12 +21,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start && firebase emulators:start --only functions",
+    "start": "react-scripts start",
     "build": "tsc",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "firebase deploy --only functions"
-  },
+    "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
