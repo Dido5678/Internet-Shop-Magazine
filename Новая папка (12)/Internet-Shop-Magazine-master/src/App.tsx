@@ -10,11 +10,6 @@ import Dresses from './pages/Dresses';
 import Shoes from './pages/Shoes';
 import Contact from './pages/Contact';
 
-import HomeSupport from './pages/Home';
-import SupportAdmin from './support/SupportAdmin';
-
-const path = window.location.pathname
-
 
 const App: React.FC = () => {
   console.log("Rendering App component");
@@ -32,7 +27,6 @@ const App: React.FC = () => {
         <Route path="/cart/2.4" element={<Cart />} />
         <Route path="/checkout/2.5" element={<Checkout />} />
       </Routes>
-      { path.indexOf('/support') === -1 ? <HomeSupport /> : <SupportAdmin /> }
     </div>
   );
 };

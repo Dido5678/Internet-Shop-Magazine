@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../assets/my.module.scss';
-import SupportEngine from "../support/SupportEngine";
 import Layout from './Layout/Header';
 import SectionOne from '../components/SectionOne';
 import SectionTwo from '../components/SectionTwo';
@@ -44,9 +43,6 @@ const Home: React.FC<HomeProps> = () => {
 
   return (
     <div className="home-container">
-         <div>
-          <SupportEngine />
-        </div>
       <Layout />
       <SectionOne />
       <SectionTwo />
@@ -60,7 +56,7 @@ const Home: React.FC<HomeProps> = () => {
       {showScrollButton && (
         <div className={styles.home_scroll}>
           <div onClick={scrollToTop}>
-            <img src='./icons/chevron.png' alt='up' className={styles.scroll_up} />
+            <img src='./icons/chevron-up.png' alt='up' className={styles.scroll_up} />
           </div>
         </div>
       )}
