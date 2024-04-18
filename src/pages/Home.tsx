@@ -44,9 +44,9 @@ const Home: React.FC<HomeProps> = () => {
 
   return (
     <div className="home-container">
-         <div>
-          <SupportEngine />
-        </div>
+       <div>
+         <SupportEngine />
+       </div>
       <Layout />
       <SectionOne />
       <SectionTwo />
@@ -54,6 +54,7 @@ const Home: React.FC<HomeProps> = () => {
       <SectionBasket />
       <SectionFour />
       <SectionFive />
+    
       <Footer />
 
       {/* Render the scroll button conditionally */}

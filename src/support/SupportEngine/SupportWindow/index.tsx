@@ -1,8 +1,7 @@
-// SupportWindow.tsx
-
 import React, { useState } from 'react';
 import { styles } from '../styles';
 import EmailForm from './EmailForm';
+import ChatEngine from './ChatEngine';
 
 interface SupportWindowProps {
     visible: boolean;
@@ -17,11 +16,12 @@ const SupportWindow: React.FC<SupportWindowProps> = (props) => {
             className='transition-5'
             style={{
                 ...styles.supportWindow,  
-                opacity: props.visible ? '1' : '0'               
+                ...{ opacity: props.visible ? '1' : '0' }               
             }}
         >
+            <EmailForm visible={props.visible} />
             <EmailForm
-                visible={props.visible}
+                visible={user === null || chat === null}
                 setUser={user => setUser(user)}
                 setChat={chat => setChat(chat)}
             />
@@ -29,9 +29,15 @@ const SupportWindow: React.FC<SupportWindowProps> = (props) => {
             {user !== null && chat !== null &&
                 <div>Chat Engine</div>
             }
+              <ChatEngine 
+                visible={user !== null && chat !== null}
+                user={user} 
+                chat={chat} 
+            />
         </div>
     );
 }
 
 export default SupportWindow;
+
 
